@@ -5,7 +5,3 @@ Taylor Swift's musical style has evolved a lot since her 2006 debut album. In he
 The datasets we will use contain all songs on each of Taylor Swift's first [eleven studio albums](https://en.wikipedia.org/wiki/Taylor_Swift_albums_discography#Studio_albums). This data was collected before the recent release of her 12th album, *The Life of a Showgirl*, which came out on October 3, 2025. 
 
 We've chosen to use deluxe or extended versions of these albums when available, to include more songs, but we've eliminated duplicate versions of songs, such as acoustic versions and remixes. We've also chosen to include the rerecorded "[Taylor's Version](https://www.vox.com/culture/22278732/taylor-swift-re-recording-1989-speak-now-enchanted-mine-master-rights-scooter-braun)" when available. Our datasets don't include Taylor Swift songs that were released as part of movie soundtracks, live recordings, holiday specials, or through any other mechanism.
-
-We'll work with two DataFrames throughout the project:
-- The `lyrics` DataFrame contains the lyrics of each Taylor Swift song.  The data in `lyrics` comes from [Genius](https://genius.com/), "the world's biggest collection of song lyrics and crowdsourced musical knowledge."
-- The `tswift` DataFrame contains information about the audio features of each song. The data in `tswift` comes from [Spotify](https://open.spotify.com/). 
